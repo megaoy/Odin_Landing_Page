@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     
@@ -75,12 +83,28 @@ h1 p{
     
     
 }
-
-
-li{
-    list-style: none;
+.card_bock{
+    display: flex;
+    justify-content: space-between;
 }
-a{
-    text-decoration: none;
-    color: inherit;
+
+.cards h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.card_image{
+    width: 10em;
+    height: 10em;
+    border: 1px #3882f6 solid;
+    border-radius: 5%;
+}
+
+.card{
+    /* color: #E5e7eb; */
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
