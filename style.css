@@ -85,7 +85,7 @@ h1 p{
 }
 .card_bock{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .cards h3{
@@ -99,12 +99,20 @@ h1 p{
     height: 10em;
     border: 1px #3882f6 solid;
     border-radius: 5%;
+    align-self: center;
 }
 
 .card{
-    /* color: #E5e7eb; */
+    
     font-size: 18px;
-    text-align: center;
+    
     display: flex;
     flex-direction: column;
+    gap: 4px;
+    max-width: 10em;
+    
+}
+.card_text{
+    text-align: center;
+    /* color: #E5E7Eb; */
 }
